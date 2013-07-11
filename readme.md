@@ -19,22 +19,24 @@ Here's an example configuration (from the screenshot)
 
 ````
 menuentry "Arch Linux" {
-	icon /EFI/refind/minimal-theme/icons/grey_arch.png
+	icon /EFI/refind/minimal-theme/icons/os_arch.png
 	loader vmlinuz-linux
 	initrd initramfs-linux.img
 	options "ro root=UUID=dfb2919d-ff78-48db-a8a7-23f7542c343a loglevel=3"
 }
 
 menuentry "Windows" {
-	icon /EFI/refind/minimal-theme/icons/grey_windows.png
+	icon /EFI/refind/minimal-theme/icons/os_windows.png
 	loader /EFI/Microsoft/Boot/bootmgfw.efi
 }
 
 menuentry "OSX" {
-	icon /EFI/refind/minimal-theme/icons/grey_osx.png
+	icon /EFI/refind/minimal-theme/icons/os_mac.png
 	loader /EFI/Apple/Boot/bootmgfw.efi
 }
 ````
+
+Entries that are autodetected should also show the proper icons.
 
 ### Attribution
 
