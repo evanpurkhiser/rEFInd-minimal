@@ -26,7 +26,7 @@ menuentry "Arch Linux" {
 }
 
 menuentry "Windows" {
-	icon /EFI/refind/minimal-theme/icons/os_windows.png
+	icon /EFI/refind/minimal-theme/icons/os_win.png
 	loader /EFI/Microsoft/Boot/bootmgfw.efi
 }
 
