@@ -22,7 +22,7 @@ menuentry "Arch Linux" {
 	icon /EFI/refind/minimal-theme/icons/os_arch.png
 	loader vmlinuz-linux
 	initrd initramfs-linux.img
-	options "ro root=UUID=dfb2919d-ff78-48db-a8a7-23f7542c343a loglevel=3"
+	options "rw root=UUID=dfb2919d-ff78-48db-a8a7-23f7542c343a loglevel=3"
 }
 
 menuentry "Windows" {
