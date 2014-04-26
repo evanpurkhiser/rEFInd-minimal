@@ -123,14 +123,14 @@ header {
         opacity: 1
     }
 
-
 ul.commands {
     font: 0.8em/1.6em 'PT Mono', monospace;
     list-style: none;
     padding: 15px 20px;
     border-radius: 3px;
     background: #ECF0F1;
-    border: 1px solid #E2E3E4;
+    border: 1px solid #D5D7D9;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
 }
 
     ul.commands ::selection {
@@ -141,10 +141,10 @@ ul.commands {
     ul.commands li:before {
         content: '#';
         color: #E74C3C;
-        padding-right: 10px;
+        padding-right: 5px;
         font-weight: bold;
         position: relative;
-        top: 2px;
+        top: 1px;
     }
 
 ul.commands-tooltip {
@@ -167,7 +167,7 @@ ul.commands-tooltip {
 
     ul.commands-tooltip:before {
         bottom: -25px;
-        border-color: #E2E3E4 transparent transparent transparent;
+        border-color: #D5D7D9 transparent transparent transparent;
     }
 
 @media (max-width: 720px) {
