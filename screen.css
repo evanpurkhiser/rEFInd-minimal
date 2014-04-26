@@ -1,14 +1,7 @@
 * { box-sizing: border-box; }
 
-html {
-    height: 100%;
-    width: 100%;
-}
-
 body {
     margin: 0;
-    height: 100%;
-    width: 100%;
     background: #FFF;
     color: #2C3E50;
     font: 300 1em/1.2em 'Lato', 'sans-serif';
@@ -24,15 +17,16 @@ a {
         color: #3498DB;
     }
 
-
 header {
-    margin: 80px 10px;
+    margin: 60px 10px;
     text-align: center;
 }
 
     header h1,
     header h2 {
+        line-height: 1.5em;
         font-weight: 300;
+        margin: 0;
     }
 
     header h1 {
@@ -55,3 +49,50 @@ header {
     border-radius: 2px;
     box-shadow: 0 0 150px rgba(0, 0, 0, 0.1);
 }
+
+#details {
+    max-width: 900px;
+    margin:  40px auto;
+
+}
+
+    #details ul {
+        list-style: none;
+        padding: 0;
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #details li {
+        float: left;
+        width: 200px;
+    }
+
+    #details li a {
+        display: block;
+        padding: 40px 0 5px 0;
+        position: relative;
+    }
+
+        #details li a:before {
+            font-family: 'FontAwesome';
+            font-size: 1.3em;
+            position: absolute;
+            width: 100%;
+            top: 14px;
+            left: 0;
+        }
+
+        #details li a.github:before {
+            content: '\f09b';
+        }
+
+        #details li a.install:before {
+            content: '\f019';
+        }
+
+        #details li a.author:before {
+            content:'\f08a';
+        }
