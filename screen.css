@@ -56,43 +56,43 @@ header {
 
 }
 
-    #details ul {
-        list-style: none;
-        padding: 0;
-        width: 600px;
-        margin: 0 auto;
-        text-align: center;
-        overflow: hidden;
+#links {
+    list-style: none;
+    padding: 0;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+#links li {
+    float: left;
+    width: 200px;
+}
+
+#links a {
+    display: block;
+    padding: 40px 0 5px 0;
+    position: relative;
+}
+
+    #links a:before {
+        font-family: 'FontAwesome';
+        font-size: 1.3em;
+        position: absolute;
+        width: 100%;
+        top: 14px;
+        left: 0;
     }
 
-    #details li {
-        float: left;
-        width: 200px;
+    #links a.github:before {
+        content: '\f09b';
     }
 
-    #details li a {
-        display: block;
-        padding: 40px 0 5px 0;
-        position: relative;
+    #links a.install:before {
+        content: '\f019';
     }
 
-        #details li a:before {
-            font-family: 'FontAwesome';
-            font-size: 1.3em;
-            position: absolute;
-            width: 100%;
-            top: 14px;
-            left: 0;
-        }
-
-        #details li a.github:before {
-            content: '\f09b';
-        }
-
-        #details li a.install:before {
-            content: '\f019';
-        }
-
-        #details li a.author:before {
-            content:'\f08a';
-        }
+    #links a.author:before {
+        content:'\f08a';
+    }
