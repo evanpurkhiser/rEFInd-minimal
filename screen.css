@@ -53,7 +53,8 @@ header {
 
 #details {
     max-width: 900px;
-    margin:  40px auto;
+    margin: 40px auto;
+    position: relative;
 }
 
 #links {
@@ -98,6 +99,66 @@ header {
             content:'\f08a';
         }
 
+
+#install {
+    position: absolute;
+    bottom: 55px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 600ms;
+}
+
+    #install ul {
+        display: inline-block;
+        text-align: left;
+    }
+
+    #install.visible {
+        opacity: 1
+    }
+
+
+ul.commands {
+    font: 0.8em/1.6em 'PT Mono', monospace;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 3px;
+    background: #ECF0F1;
+    border: 1px solid #E2E3E4;
+}
+
+    ul.commands li:before {
+        content: '#';
+        color: #E74C3C;
+        padding-right: 10px;
+        font-weight: bold;
+        position: relative;
+        top: 2px;
+    }
+
+ul.commands-tooltip {
+    position: relative;
+}
+
+    ul.commands-tooltip:after,
+    ul.commands-tooltip:before {
+        content: '';
+        display: block;
+        height: 0;
+        width: 0;
+        border: 12px solid #000;
+        border-color: #ECF0F1 transparent transparent transparent;
+        position: absolute;
+        left: 50%;
+        bottom: -24px;
+        margin-left: -13px;
+    }
+
+    ul.commands-tooltip:before {
+        bottom: -25px;
+        border-color: #E2E3E4 transparent transparent transparent;
+    }
 
 @media (max-width: 720px) {
 
