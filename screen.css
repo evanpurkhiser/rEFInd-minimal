@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 body {
-    margin: 0;
+    margin: 0 20px;
     background: #FFF;
     color: #2C3E50;
     font: 300 1em/1.2em 'Lato', 'sans-serif';
@@ -45,7 +45,8 @@ header {
 #preview {
     display: block;
     max-width: 900px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
     border-radius: 2px;
     box-shadow: 0 0 150px rgba(0, 0, 0, 0.1);
 }
@@ -53,46 +54,72 @@ header {
 #details {
     max-width: 900px;
     margin:  40px auto;
-
 }
 
 #links {
     list-style: none;
     padding: 0;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
 }
 
-#links li {
-    float: left;
-    width: 200px;
+    #links li {
+        float: left;
+        width: 33.3333%;
+        padding: 0 10px;
+    }
+
+    #links a {
+        display: block;
+        padding: 40px 0 5px 0;
+        position: relative;
+    }
+
+        #links a:before {
+            font-family: 'FontAwesome';
+            font-size: 1.3em;
+            position: absolute;
+            width: 100%;
+            top: 14px;
+            left: 0;
+        }
+
+        #links a.github:before {
+            content: '\f09b';
+        }
+
+        #links a.install:before {
+            content: '\f019';
+        }
+
+        #links a.author:before {
+            content:'\f08a';
+        }
+
+
+@media (max-width: 720px) {
+
+    header {
+        margin: 20px 10px;
+    }
+
+        header h1 {
+            font-size: 1.6em;
+        }
+
+        header h2 {
+            font-size: 1.2em;
+        }
+
+    #details {
+        margin:  20px auto;
+    }
+
+    #links li {
+        padding: 0 2px;
+        font-size: 0.9em;
+    }
+
 }
-
-#links a {
-    display: block;
-    padding: 40px 0 5px 0;
-    position: relative;
-}
-
-    #links a:before {
-        font-family: 'FontAwesome';
-        font-size: 1.3em;
-        position: absolute;
-        width: 100%;
-        top: 14px;
-        left: 0;
-    }
-
-    #links a.github:before {
-        content: '\f09b';
-    }
-
-    #links a.install:before {
-        content: '\f019';
-    }
-
-    #links a.author:before {
-        content:'\f08a';
-    }
