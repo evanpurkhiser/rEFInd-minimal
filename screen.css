@@ -7,6 +7,11 @@ body {
     font: 300 1em/1.2em 'Lato', 'sans-serif';
 }
 
+::selection {
+    background: #3498DB;
+    color: #FFF;
+}
+
 a {
     text-decoration: none;
     color: #2C3E50;
@@ -127,6 +132,11 @@ ul.commands {
     background: #ECF0F1;
     border: 1px solid #E2E3E4;
 }
+
+    ul.commands ::selection {
+        background: #E74C3C;
+        color: #FFF;
+    }
 
     ul.commands li:before {
         content: '#';
