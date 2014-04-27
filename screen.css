@@ -85,6 +85,7 @@ header {
         display: block;
         padding: 40px 0 5px 0;
         position: relative;
+        background: none;
     }
 
         #links a:before {
