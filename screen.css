@@ -16,14 +16,14 @@ a {
     text-decoration: none;
     color: #2C3E50;
     transition: color 400ms;
-    background: linear-gradient(to bottom, #FFF 50%, #E7E7E9 50%);
-    background-repeat: repeat-x;
+    background: linear-gradient(to bottom, #FFF 50%, #E7E7E9 50%) repeat-x;
     background-size: 2px 2px;
-    background-position: 0 21px;
+    background-position: 0 20px;
 }
 
     a:hover {
         color: #3498DB;
+        background-image: linear-gradient(to bottom, #FFF 50%, #CCC 50%);
     }
 
 header {
