@@ -3,7 +3,7 @@
 [rEFInd](http://www.rodsbooks.com/refind/) is a simplistic boot manager for UEFI
 based systems. This is a clean and minimal theme for it.
 
-![rEFInd Minimalistic](http://i.imgur.com/Q26vQJx.jpg)
+![rEFInd Minimalistic](http://i.imgur.com/3bMG6U7.png)
 
 ### Usage
 
@@ -43,4 +43,5 @@ Entries that are autodetected should also show the proper icons.
 The OS icons are from [Lightness for burg](http://sworiginal.deviantart.com/art/Lightness-for-burg-181461810)
 by [SWOriginal](http://sworiginal.deviantart.com/).
 
-The background image was found on [wallbase.cc](http://wallbase.cc) and doesn't seem to have any attributions.
+The background image doesn't seem to have a source.
+
