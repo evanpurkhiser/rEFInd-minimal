@@ -43,5 +43,7 @@ Entries that are autodetected should also show the proper icons.
 The OS icons are from [Lightness for burg](http://sworiginal.deviantart.com/art/Lightness-for-burg-181461810)
 by [SWOriginal](http://sworiginal.deviantart.com/).
 
-The background image doesn't seem to have a source.
-
+The background is [Minimalist
+Wallpaper](http://leonardoalanb.deviantart.com/art/Minimalist-wallpaper-295519786)
+by [LeonardoAIanB](http://leonardoalanb.deviantart.com/). Thank you to
+[Padster](https://github.com/theRealPadster) for locating it!
