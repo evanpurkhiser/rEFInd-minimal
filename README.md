@@ -41,10 +41,15 @@ Entries that are autodetected should also show the proper icons.
 
 ### Attribution
 
-The OS icons are from [Lightness for burg](http://sworiginal.deviantart.com/art/Lightness-for-burg-181461810)
-by [SWOriginal](http://sworiginal.deviantart.com/).
+The OS icons are from [Lightness for burg][icons] by [SWOriginal][icon-author].
 
-The background is [Minimalist
-Wallpaper](http://leonardoalanb.deviantart.com/art/Minimalist-wallpaper-295519786)
-by [LeonardoAIanB](http://leonardoalanb.deviantart.com/). Thank you to
-[Padster](https://github.com/theRealPadster) for locating it!
+The background is [Minimalist Wallpaper][wallpaper] by
+[LeonardoAIanB][wallpaper-author]. Thank you to [Padster][padster] for locating
+it!
+
+[icons]: http://sworiginal.deviantart.com/art/Lightness-for-burg-181461810
+[icon-author]: http://sworiginal.deviantart.com/
+
+[padster]: https://github.com/theRealPadster
+[wallpaper]: http://leonardoalanb.deviantart.com/art/Minimalist-wallpaper-295519786
+[wallpaper-author]: http://leonardoalanb.deviantart.com/
