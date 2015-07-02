@@ -7,15 +7,16 @@ based systems. This is a clean and minimal theme for it.
 
 ### Usage
 
-To use this theme you'll want to clone it into the same directory as your rEFInd
-efi executable (usually `/boot/EFI/refind/`). Then you will want to add the line
-`include rEFInd-minimal/theme.conf` to the end of your `refind.conf`.
+ 1. Locate your refind EFI directory. This is commonly `/boot/EFI/refind`
+    though it will depend on where you mount your ESP and where rEFInd is
+    installed. `fdisk -l` and `mount` may help.
 
-To set the icons for your entries you will want to add the `icon` configuration
-to each menuentry which points to the icon under `rEFInd-minimal/icons` that you
-would like to use for that entry.
+ 2. Clone this repository into your refind configuration directory.
 
-Here's an example configuration (from the screenshot)
+ 3. To enable the theme add `include rEFInd-minimal/theme.conf` at the end of
+    `refind.conf`.
+
+Here's an example menuentry configuration (from the screenshot)
 
 ```nginx
 menuentry "Arch Linux" {
