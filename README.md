@@ -17,7 +17,7 @@ would like to use for that entry.
 
 Here's an example configuration (from the screenshot)
 
-````
+```nginx
 menuentry "Arch Linux" {
 	icon /EFI/refind/rEFInd-minimal/icons/os_arch.png
 	loader vmlinuz-linux
@@ -34,7 +34,7 @@ menuentry "OSX" {
 	icon /EFI/refind/rEFInd-minimal/icons/os_mac.png
 	loader /EFI/Apple/Boot/bootmgfw.efi
 }
-````
+```
 
 Entries that are autodetected should also show the proper icons.
 
