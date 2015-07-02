@@ -39,6 +39,19 @@ menuentry "OSX" {
 
 Entries that are autodetected should also show the proper icons.
 
+### Background sizes
+
+If you find the background does not fit your monitor or is too large you have
+two options:
+
+ 1. Configure the `banner_scale` option with `fillscreen`. Do note though, this
+    may cause a loss in quality.
+
+ 2. Download and resize the [original high quality wallpaper][wallpaper] and
+    replace the `background.png`.
+
+You can of course also choose your own background!
+
 ### Attribution
 
 The OS icons are from [Lightness for burg][icons] by [SWOriginal][icon-author].
