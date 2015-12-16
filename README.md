@@ -1,9 +1,9 @@
-## Minimalistic rEFInd theme
+## Custom rEFInd-minimal Theme
 
 [rEFInd](http://www.rodsbooks.com/refind/) is a simplistic boot manager for UEFI
 based systems. This is a clean and minimal theme for it.
 
-![rEFInd Minimalistic](http://i.imgur.com/3bMG6U7.png)
+*TODO: Screenshot here*
 
 ### Usage
 
@@ -16,54 +16,38 @@ based systems. This is a clean and minimal theme for it.
  3. To enable the theme add `include rEFInd-minimal/theme.conf` at the end of
     `refind.conf`.
 
-Here's an example menuentry configuration (from the screenshot)
-
-```nginx
-menuentry "Arch Linux" {
-	icon /EFI/refind/rEFInd-minimal/icons/os_arch.png
-	loader vmlinuz-linux
-	initrd initramfs-linux.img
-	options "rw root=UUID=dfb2919d-ff78-48db-a8a7-23f7542c343a loglevel=3"
-}
-
-menuentry "Windows" {
-	icon /EFI/refind/rEFInd-minimal/icons/os_win.png
-	loader /EFI/Microsoft/Boot/bootmgfw.efi
-}
-
-menuentry "OSX" {
-	icon /EFI/refind/rEFInd-minimal/icons/os_mac.png
-	loader /EFI/Apple/Boot/bootmgfw.efi
-}
-```
-
-Entries that are autodetected should also show the proper icons.
+Your boot entries should be auto-detected. Be careful to remove old Linux kernels and comment out all the example menu entries in `refind.conf`.
 
 ### Background sizes
 
 If you find the background does not fit your monitor or is too large you have
-two options:
+three options:
 
  1. Configure the `banner_scale` option with `fillscreen`. Be aware that this
     may cause some level of quality loss due to resampling! If things look
     fuzzy this may not be the right approch.
 
- 2. Download and resize the [original high quality wallpaper][wallpaper] and
-    replace the `background.png`.
+ 2. Download and resize the [original high-quality wallpaper][wallpaper] and
+    replace the `background.png`. Different sizes of the wallpaper are available for download.
 
-You can of course also choose your own background!
+ 3. Adjust the resolution option in `refind.conf`. Mine is set to `resolution 1920 1080`. Going above
+    1920x1080 may have undesirable effects.
+
+You can swap out the background with any other background you like. All you have to do is download it, make sure it is an appropiate size, and for the sake of safety and quality, make sure it is a PNG. Take care to ensure that all the icons are still visible. After you have done this, simply delete the original `background.png` amd replace it with your own `background.png`.
 
 ### Attribution
 
+The original [rEFInd-minimal][theme] theme is by [Evan Purkhiser][evan].
+
 The OS icons are from [Lightness for burg][icons] by [SWOriginal][icon-author].
 
-The background is [Minimalist Wallpaper][wallpaper] by
-[LeonardoAIanB][wallpaper-author]. Thank you to [Padster][padster] for locating
-it!
+The background is one I found called [Crystals][wallpaper] by [Puscifer91][bg-author] on deviantART.
+
+[theme]: https://github.com/EvanPurkhiser/rEFInd-minimal
+[evan]: https://github.com/EvanPurkhiser
 
 [icons]: http://sworiginal.deviantart.com/art/Lightness-for-burg-181461810
 [icon-author]: http://sworiginal.deviantart.com/
 
-[padster]: https://github.com/theRealPadster
-[wallpaper]: http://leonardoalanb.deviantart.com/art/Minimalist-wallpaper-295519786
-[wallpaper-author]: http://leonardoalanb.deviantart.com/
+[wallpaper]: http://puscifer91.deviantart.com/art/Crystals-Wallpaper-4K-504839163
+[bg-author]: http://puscifer91.deviantart.com/
