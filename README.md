@@ -1,9 +1,10 @@
+# It's horrific, I know. I'm working on it. 
 ## Custom rEFInd-minimal Theme
 
 [rEFInd](http://www.rodsbooks.com/refind/) is a simplistic boot manager for UEFI
 based systems. This is a clean and minimal theme for it.
 
-*TODO: Screenshot here*
+![Screenshot](http://i.imgur.com/BBSw6ll.jpg)
 
 ### Usage
 
