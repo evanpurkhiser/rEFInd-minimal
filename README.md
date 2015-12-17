@@ -1,10 +1,14 @@
-# It's horrific, I know. I'm working on it. 
 ## Custom rEFInd-minimal Theme
 
 [rEFInd](http://www.rodsbooks.com/refind/) is a simplistic boot manager for UEFI
 based systems. This is a clean and minimal theme for it.
 
-![Screenshot](http://i.imgur.com/BBSw6ll.jpg)
+![Screenshot](http://i.imgur.com/WUrTxXr.jpg)
+
+### TODO:
+
+- Fix shutdown icon - jaggy, ugly.
+- Look into more function icons.
 
 ### Usage
 

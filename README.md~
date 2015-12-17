@@ -52,3 +52,10 @@ The background is one I found called [Crystals][wallpaper] by [Puscifer91][bg-au
 
 [wallpaper]: http://puscifer91.deviantart.com/art/Crystals-Wallpaper-4K-504839163
 [bg-author]: http://puscifer91.deviantart.com/
+
+#### Modifications I've made
+
+- Changed background to a fancier one.
+- Changed OS selector icon to a dot instead of a little arrow.
+- Changed Windows icon to original one, instead of a diamond shaped one.
+- Changed shutdown icon.
