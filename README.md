@@ -9,6 +9,7 @@ based systems. This is a clean and minimal theme for it.
 
 - Fix shutdown icon - jaggy, ugly.
 - Look into more function icons.
+- Add [Ubuntu GNOME icon](https://github.com/EvanPurkhiser/rEFInd-minimal/issues/17).
 
 ### Usage
 
