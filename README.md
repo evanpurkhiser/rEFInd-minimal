@@ -34,7 +34,7 @@ three options:
  3. Adjust the resolution option in `refind.conf`. Mine is set to `resolution 1920 1080`. Going above
     1920x1080 may have undesirable effects.
 
-You can swap out the background with any other background you like. All you have to do is download it, make sure it is an appropiate size, and for the sake of safety and quality, make sure it is a PNG. Take care to ensure that all the icons are still visible. After you have done this, simply delete the original `background.png` amd replace it with your own `background.png`.
+You can swap out the background with any other background you like. All you have to do is download it, make sure it is an appropiate size, and make sure it is either a BMP (with a depth of either 24, 8, 4, or 1) or a PNG. Take care to ensure that all the icons are still visible. After you have done this, simply delete the original `background.png` amd replace it with your own `background.png`.
 
 ### Attribution
 
