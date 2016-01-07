@@ -41,15 +41,10 @@ Entries that are autodetected should also show the proper icons.
 
 ### Background sizes
 
-If you find the background does not fit your monitor or is too large you have
-two options:
-
- 1. Configure the `banner_scale` option with `fillscreen`. Be aware that this
-    may cause some level of quality loss due to resampling! If things look
-    fuzzy this may not be the right approch.
-
- 2. Download and resize the [original high quality wallpaper][wallpaper] and
-    replace the `background.png`.
+If you find the background looks blurry it may be due to the included wallpaper
+being an incorrect resolution for your monitor. You can download the [original
+high quality wallpaper][wallpaper], resize it as appropriate, and replace the
+`background.png`.
 
 You can of course also choose your own background!
 
