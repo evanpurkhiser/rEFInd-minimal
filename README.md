@@ -11,9 +11,11 @@ based systems. This is a clean and minimal theme for it.
     though it will depend on where you mount your ESP and where rEFInd is
     installed. `fdisk -l` and `mount` may help.
 
- 2. Clone this repository into your refind configuration directory.
+ 2. Create a folder called `themes` inside it, if it doesn't already exist
 
- 3. To enable the theme add `include rEFInd-minimal/theme.conf` at the end of
+ 3. Clone this repository into the `themes` directory.
+
+ 4. To enable the theme add `include themes/rEFInd-minimal/theme.conf` at the end of
     `refind.conf`.
 
 Here's an example menuentry configuration (from the screenshot)
