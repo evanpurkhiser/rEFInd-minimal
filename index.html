@@ -36,8 +36,8 @@
             <div id="install">
                 <ul class="commands commands-tooltip">
                     <li>cd /boot/EFI/refind/</li>
-                    <li>mkdir -p themes && cd themes</li>
-                    <li>git clone {{site.github.repository_url}}</li>
+                    <li>mkdir -p themes</li>
+                    <li>git clone {{site.github.repository_url}} themes/{{site.github.repository_name}}</li>
                     <li>echo "include refind-minimal/theme.conf" >> refind.conf</li>
                     <li>systemctl reboot</li>
                 </ul>
